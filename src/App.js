@@ -35,6 +35,7 @@ class App extends Component {
         id: uniqid()
       },
     })
+    console.log(this.state.tasks);
   }
 
   render() {
